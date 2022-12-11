@@ -13,4 +13,4 @@
 
 
 
-[University Siegen](https://isg.beel.org/)
+[University Siegen ISG](https://isg.beel.org/)
