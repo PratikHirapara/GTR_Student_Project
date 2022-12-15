@@ -6,6 +6,14 @@
 
 * How to Install and Run the Project
   * Install all dependencies from *requirements.txt* file and use anaconda environment.
+  * For example:
+  ```
+      conda create -n GTR
+      conda activate GTR
+      cd ${GTR_ROOT}
+      pip install -r requirements.txt
+   ```
+  
   
 * How to Use the Project
   *  *main.py* file for general CNN architecture
