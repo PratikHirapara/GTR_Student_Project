@@ -22,10 +22,12 @@
 ## How to download the dataset
   * clone this repository to download the data *!git clone https://bitbucket.org/jadslim/german-traffic-signs*
   * In which, we can see four directory.
+    ```
      * *train.p*   for training data
      * *test.p*   for testing data
      * *valid.p*   for validation data
      * signnames    for groudtruth
+    ```
      
 ## Acknowledgement
 Thanks for the support during project. [University Siegen ISG](https://isg.beel.org/)
