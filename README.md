@@ -15,7 +15,7 @@
    ```
   
   
-## Use the Project
+## Project file description
   *  *main.py* file for general CNN architecture
   *  *nas.py* file for neural architecture search method
 
