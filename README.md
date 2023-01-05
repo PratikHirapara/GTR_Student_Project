@@ -1,4 +1,4 @@
-# German traffic signs recognition
+# German Traffic Signs Recognition for Autonomous Driving
 
 ![](43.jpg)
 
