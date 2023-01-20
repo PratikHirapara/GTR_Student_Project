@@ -7,6 +7,10 @@ from keras.layers.convolutional import Conv2D, MaxPooling2D
 from keras.layers import Dropout
 
 def CNN_model():
+    ''' 
+    Ours fined tunned model for image recognition
+    
+    '''
     model = Sequential()
     model.add(Conv2D(60, (5, 5), input_shape=(32, 32, 1), activation='relu'))
     model.add(Conv2D(60, (5, 5), activation='relu'))
