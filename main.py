@@ -1,6 +1,5 @@
 import numpy as np
 from keras.utils.np_utils import to_categorical
-
 from data_loader  import data_load
 from model import CNN_model
 from utils import plot_train
@@ -11,6 +10,10 @@ from keras.preprocessing.image import ImageDataGenerator
 
  
 def main(inputs, targets):
+    '''
+    inputs: Images of traffic signs
+    targets: Labels
+    '''
 
     # Data augmentation 
     datagen = ImageDataGenerator(width_shift_range=0.1,
