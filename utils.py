@@ -4,6 +4,11 @@ from random import randint, choice
 
 
 def plot_train(data, X_train, y_train):
+    '''
+    data: total images
+    X_train: images (2D np.array())
+    y_train: labels of images
+    '''
     num_of_samples=[]
     cols = 5
     num_classes = 43
