@@ -9,6 +9,13 @@ from keras.utils.np_utils import to_categorical
 
 
 def data_load():
+    
+    '''
+    Data loader function for reading and loading the images
+    
+    returns: inputs, targets
+    
+    '''
 
     #load the data
     with open('german-traffic-signs/train.p', 'rb') as f:
