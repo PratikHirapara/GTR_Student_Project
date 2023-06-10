@@ -39,6 +39,7 @@ for train, test in kfold.split(inputs, targets):
             
     # Generate a print
     print('----------------------------------------------------------------------')
+    print("____")
     print(f'Training for fold {fold_no} ...')
 
     
