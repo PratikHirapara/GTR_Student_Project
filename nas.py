@@ -38,7 +38,7 @@ for train, test in kfold.split(inputs, targets):
     print(clf.evaluate(inputs[test], targets[test]))
             
     # Generate a print
-    print('----------------------------------------------------------------------')
+    print('----------------------------------------------------------------')
     print(f'Training for fold {fold_no} ...')
 
     
